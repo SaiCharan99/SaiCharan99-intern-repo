@@ -72,3 +72,9 @@ Inline: Sometimes, functions don't contain specific logic but simply call anothe
 Simplifying Code: Complex conditionals should be converted into simpler ones. For example, instead of multiple `if-else` statements for ranges and small breakpoints, we should use simple, concise `if` statements with clear breakpoints.
 
 In the original code, nested conditionals were used, making it hard to read and increasing complexity. In the refactored version, the conditions are flattened, which makes the code easier to read and understand.
+
+# Commenting & Documentation
+
+Comments are crucial when working in teams or even to remind yourself of the purpose of a piece of code, as some code may not be as obvious without context. Hence, comments need to be added.
+
+Initially, we need the code to be as clear as possible by using clear variable names and simplifying logic. In such cases, it's better to improve the code than to add comments.
