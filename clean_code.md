@@ -56,3 +56,9 @@ Refactoring the code made the meaning of variables and functions immediately cle
 # Writing Small, Focused Functions
 
 Breaking down functions makes code simpler, more readable, and more reusable. When a function is long and unstructured, it becomes difficult to read and understand. However, by breaking it into smaller functions with appropriate names, the code becomes easier to follow, and debugging and testing become more efficient.
+
+# Avoiding Code Duplication
+
+I was introduced to the DRY principle earlier in the workplace when I was writing similar pieces of code in multiple places. This made it difficult when changes had to be made. It is better to avoid repetition and keep the code in one common place, then use it everywhere.
+
+Refactoring improved code clarity and centralized related changes in one place.
