@@ -56,12 +56,10 @@ Surprising: The level of detail it provides for even each line of code.
 
 # Git Concept: git bisect
 
-Bisect can be used when we know a bug has been introduced but do not know the exact commit. We check and mark commits as either good or bad to identify the exact commit that caused the issue.  
+Bisect can be used when we know a bug has been introduced but do not know the exact commit. We check and mark commits as either good or bad to identify the exact commit that caused the issue.
 
 Bisect is faster because it eliminates the manual task of checking all intermediate commits and uses binary search to pinpoint the exact commit efficiently.
 
-# Git Concept: Meaningful commit 
+# Git Concept: Meaningful commit
 
-
-
-
+A good commit message is concise and self-explanatory. It provides clarity and makes debugging easier. Unclear and ambiguous commit messages can hinder team performance by making it difficult to find commits if issues arise and make it tougher to go back through commits.
