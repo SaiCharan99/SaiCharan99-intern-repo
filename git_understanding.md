@@ -23,3 +23,11 @@ Observed the difference between staging and committing.
 Staging and committing are separated to allow developers to review changes before committing them.
 
 We might stage changes without committing when we want to batch commits logically instead of committing one by one or when we need to review changes before finalizing them.
+
+# Git Concept: Branching & Team Collaboration
+
+Pushing directly to main is problematic as it bypasses the review process and increases the risk of bugs. Additionally, main is meant to be a stable version of the software, so new changes should be handled in a separate branch. Only after ensuring that the changes are stable and free of bugs should they be merged into the main branch.
+
+Branches help with reviewing code through pull requests. When merging a sub-branch into main, we can see all the new changes. If any bugs arise, we know these changes are the cause and can focus on fixing them.
+
+If two people edit the same file on different branches, Git will try to merge the changes automatically, but if the changes overlap, a merge conflict happens. Then, we need to manually resolve the conflict before merging.
