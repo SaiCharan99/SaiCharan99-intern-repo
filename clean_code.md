@@ -37,3 +37,10 @@ Renamed the function to `factorial` for clarity.
 Added a docstring explaining its purpose.
 Improved readability with proper indentation and spacing.
 Easier to debug and maintain.
+
+# Code Formatting & Style Guides
+
+Code formatting is important for maintaining code readability and making it easier for others to work in a team setting. It also helps reduce errors.
+
+The linter detected inconsistent indentation and trailing spaces. It also added semicolor to a sample code that I added in AI tools
+Formatting made the entire file much more readable and easier to understand.
