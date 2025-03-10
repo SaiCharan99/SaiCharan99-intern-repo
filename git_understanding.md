@@ -31,3 +31,25 @@ Pushing directly to main is problematic as it bypasses the review process and in
 Branches help with reviewing code through pull requests. When merging a sub-branch into main, we can see all the new changes. If any bugs arise, we know these changes are the cause and can focus on fixing them.
 
 If two people edit the same file on different branches, Git will try to merge the changes automatically, but if the changes overlap, a merge conflict happens. Then, we need to manually resolve the conflict before merging.
+
+# Git Concept: Advanced git commands
+
+git checkout main -- <file>
+Restores a specific file from `main` without affecting other file changes in the current branch.  
+Useful when you've made a lot of unwanted changes to a particular file and want to restore it.  
+Surprising: How quick and easy it is to restore just one file with a single command.
+
+git cherry-pick <commitCode>
+Applies a specific commit’s changes to the current branch.  
+Useful when working in a team and you want to pick another person's commit to check in your branch.  
+Surprising: It only applies the selected commit's changes, and those changes immediately reflect in the files.
+
+git log
+Displays the commit history of a repository.  
+Useful for tracking changes and identifying what might have caused an issue.  
+Surprising: The amount of detailed information it provides in the terminal.
+
+git blame <file>
+Shows information on who modified each line of a file and when.  
+ Helps to track which change might have caused an issue.  
+Surprising: The level of detail it provides for even each line of code.
