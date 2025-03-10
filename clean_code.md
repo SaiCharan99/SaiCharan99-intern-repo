@@ -44,3 +44,11 @@ Code formatting is important for maintaining code readability and making it easi
 
 The linter detected inconsistent indentation and trailing spaces. It also added semicolor to a sample code that I added in AI tools
 Formatting made the entire file much more readable and easier to understand.
+
+# Naming Variables & Functions
+
+A good variable or function name is self-explanatory and consistent with other names.
+
+Poorly named variables and functions delay the debugging process, as extra time is needed to first understand the code, variables, and functions, along with their purpose, before actual debugging can begin.
+
+Refactoring the code made the meaning of variables and functions immediately clear, improving future maintainability.
