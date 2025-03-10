@@ -63,3 +63,11 @@ Bisect is faster because it eliminates the manual task of checking all intermedi
 # Git Concept: Meaningful commit
 
 A good commit message is concise and self-explanatory. It provides clarity and makes debugging easier. Unclear and ambiguous commit messages can hinder team performance by making it difficult to find commits if issues arise and make it tougher to go back through commits.
+
+# Git Concept: Pull Requests
+
+PRs ensure collaboration, code review, and quality control, preventing bugs and maintaining code quality before merging. They improve team communication and help track changes.
+
+A good PR has a clear title, focused changes, relevant issue links, testing details, and meaningful commit messages for better review and understanding.
+
+Reviewing an open-source PR shows best practices in code quality, problem-solving, and collaboration, helping improve both technical and communication skills.
