@@ -60,6 +60,7 @@ Bisect can be used when we know a bug has been introduced but do not know the ex
 
 Bisect is faster because it eliminates the manual task of checking all intermediate commits and uses binary search to pinpoint the exact commit efficiently.
 
+# Git  
 
 
 
