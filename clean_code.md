@@ -52,3 +52,7 @@ A good variable or function name is self-explanatory and consistent with other n
 Poorly named variables and functions delay the debugging process, as extra time is needed to first understand the code, variables, and functions, along with their purpose, before actual debugging can begin.
 
 Refactoring the code made the meaning of variables and functions immediately clear, improving future maintainability.
+
+# Writing Small, Focused Functions
+
+Breaking down functions makes code simpler, more readable, and more reusable. When a function is long and unstructured, it becomes difficult to read and understand. However, by breaking it into smaller functions with appropriate names, the code becomes easier to follow, and debugging and testing become more efficient.
