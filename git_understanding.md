@@ -51,5 +51,16 @@ Surprising: The amount of detailed information it provides in the terminal.
 
 git blame <file>
 Shows information on who modified each line of a file and when.  
- Helps to track which change might have caused an issue.  
+Helps to track which change might have caused an issue.  
 Surprising: The level of detail it provides for even each line of code.
+
+# Git Concept: git bisect
+
+Bisect can be used when we know a bug has been introduced but do not know the exact commit. We check and mark commits as either good or bad to identify the exact commit that caused the issue.  
+
+Bisect is faster because it eliminates the manual task of checking all intermediate commits and uses binary search to pinpoint the exact commit efficiently.
+
+
+
+
+
