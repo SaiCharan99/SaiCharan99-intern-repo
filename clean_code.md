@@ -62,3 +62,13 @@ Breaking down functions makes code simpler, more readable, and more reusable. Wh
 I was introduced to the DRY principle earlier in the workplace when I was writing similar pieces of code in multiple places. This made it difficult when changes had to be made. It is better to avoid repetition and keep the code in one common place, then use it everywhere.
 
 Refactoring improved code clarity and centralized related changes in one place.
+
+# Refactoring Code for Simplicity
+
+Extract Method: As seen earlier, this involves creating smaller, focused functions.
+
+Inline: Sometimes, functions don't contain specific logic but simply call another function. These should be avoided.
+
+Simplifying Code: Complex conditionals should be converted into simpler ones. For example, instead of multiple `if-else` statements for ranges and small breakpoints, we should use simple, concise `if` statements with clear breakpoints.
+
+In the original code, nested conditionals were used, making it hard to read and increasing complexity. In the refactored version, the conditions are flattened, which makes the code easier to read and understand.
