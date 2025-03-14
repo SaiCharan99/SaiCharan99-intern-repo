@@ -26,6 +26,11 @@ This concept could be applied to Focus Bear to create a similar to-do list exper
 
 I suggest making the sliders more illustrative. For instance, when adjusting the _current mood_ slider, it could visually transition from a sad face at the beginning to a happy face at the end, with a color gradient from red to green to improve intuitiveness. Similar animations could be incorporated for other UI elements.
 
+The slider was during the app onboarding, attached below is something similar in the app:-
+![alt text](image.png)
+Here, when we move the slider, we can add a small emoticon above the description or change the bear logo from the basic green (super gentle) to red as we move it to the right, with the logo changing to match the intensity.
+
+
 ### Writing Response Practice:
 
 Hi "User",
