@@ -7,3 +7,9 @@ Successfully ran the react project with tailwind css:-
 Challenges Faced:-
 
 The major challenge I faced was when I was trying to install Tailwind and set up the environment, the CSS changes were not visible. Even after receiving help from AI, the issue remained unresolved. The problem was eventually fixed when I realized that the `tailwind.config.js` file was not placed in the root of the project directory.
+
+## Understanding Components & Props
+
+Made a new component in the components folder call HelloWorld.js
+Used App. to dynamically pass Focus Bear to this child component, destructured the props and displayed it:-
+![alt text](image-1.png)

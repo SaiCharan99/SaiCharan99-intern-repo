@@ -1,4 +1,4 @@
 # Ignore Husky-related files
 .husky/
 node_modules/
-react-app/
+my-react-tailwind-app/
