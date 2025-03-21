@@ -2,16 +2,16 @@
 
 ## Reflections
 
-Cybersecurity is key when using any digital device, especially in a work environment. I currently follow basic measures such as locking my device when I step away, using strong passwords without writing them down, and utilizing a VPN when working on public networks.
+Cybersecurity is essential when using any digital device, especially in a work environment. I currently follow basic security measures such as locking my device when stepping away, using strong passwords without writing them down, and utilizing a VPN when working on public networks.
 
-Additionally, I will be more vigilant in scrutinizing emails to avoid phishing attacks and will consider using a password manager like 1Password and apple password manager to securely store all my passwords.
+Additionally, I will be more vigilant in scrutinizing emails to avoid phishing attacks. I am also considering using a password manager like 1Password or Apple Password Manager to securely store my credentials.
 
-By being extra cautious of emails and periodic password changes.
+To enhance my cybersecurity practices, I will:
 
-By using password managers and autofilling strong passwords suggested.
+- Be extra cautious of suspicious emails and change my passwords periodically.
+- Use password managers to generate and autofill strong passwords.
+- Immediately report security incidents, similar to how Jeremy demonstrated when a pre-intern reached out to him. I will also change any related passwords if necessary.
 
-Immediately report the incident, similar to how Jermey showed a provioius intern reached out to him. Also change any related passwords.
-
-One new cyber secuity habit would be to start using the password manager application. Imported all my chrome passwords to apple and using it now in all my devices=>
+A new cybersecurity habit I have adopted is using a password manager. I have imported all my Chrome passwords into Apple Password Manager and now use it across all my devices.
 
 ![alt text](image-2.png)

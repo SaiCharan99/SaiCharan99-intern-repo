@@ -8,11 +8,11 @@ User Experience (UX) is crucial in providing a smooth experience, especially whe
 
 One practical change I would make to better support vulnerable populations is to personally practice more patience while communicating with others. Additionally, while working on Focus Bear, I would aim to reduce cognitive load by implementing simplified and illustrative designs to enhance intuitiveness.
 
-### ADHD Productivity Tools Experience:
+### ADHD Productivity Tools Experience
 
-https://www.reddit.com/r/ADHD/comments/127jxcc/productivity_tools/
+[ Reddit Link: https://www.reddit.com/r/ADHD/comments/127jxcc/productivity_tools/]
 
-**Key Observations:**
+#### Key Observations
 
 - All data should be in a single place rather than split across different applications, as it becomes difficult to keep track.
 - _Planner Pad_ is a popular tool that follows a funnel-down planning system with three phases:
@@ -22,7 +22,7 @@ https://www.reddit.com/r/ADHD/comments/127jxcc/productivity_tools/
 
 This concept could be applied to Focus Bear to create a similar to-do list experience.
 
-### Design/Communication Improvement to Enhance Accessibility:
+### Design/Communication Improvement to Enhance Accessibility
 
 I suggest making the sliders more illustrative. For instance, when adjusting the _current mood_ slider, it could visually transition from a sad face at the beginning to a happy face at the end, with a color gradient from red to green to improve intuitiveness. Similar animations could be incorporated for other UI elements.
 
@@ -30,8 +30,7 @@ The slider was during the app onboarding, attached below is something similar in
 ![alt text](image.png)
 Here, when we move the slider, we can add a small emoticon above the description or change the bear logo from the basic green (super gentle) to red as we move it to the right, with the logo changing to match the intensity.
 
-
-### Writing Response Practice:
+### Writing Response Practice
 
 Hi "User",
 
