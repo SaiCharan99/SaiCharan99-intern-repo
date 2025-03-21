@@ -1,2 +1,3 @@
 # Ignore Husky-related files
 .husky/
+node_modules/
