@@ -38,4 +38,4 @@ jobs:
         with:
           config: '.cspell.json'
           files: '**/*.md'
-          inline: true
+          inline: error
