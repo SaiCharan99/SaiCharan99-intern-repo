@@ -34,4 +34,18 @@ Some common issues when working with lists in React include:
 
 Properly displaying them without causing bugs.
 Performance issues, especially when list items are complex components rather than just text.
-To optimize performance in such cases, I have previously used **bucketing** and **FlatLists**, which have built-in parameters to handle large lists efficiently.
+To optimize performance in such cases, I have previously used `bucketing` and `FlatLists`, which have built-in parameters to handle large lists efficiently.
+
+## Navigating with React Router
+
+I created two components: `Home.js` and `Profile.js`, along with a `Navigator.js` component. The `Navigator.js` component displays links to the Home and Profile pages, which, when clicked, route to `/` and `/profile`, respectively. In the routes, `/` is associated with the Home component, and `/profile` is associated with the Profile component so that the router knows which component to connect to.
+
+`Home Page:`
+![alt text](image-4.png)
+
+`Profile Page:`
+![alt text](image-5.png)
+
+`Reflections:`
+
+The advantages of using client-side routing are that it leads to faster navigation since the full page doesn't reload, and the transition between pages is smoother. It also helps maintain the global state without losing data, as rendering is done on the client side. In contrast, server-side rendering requires more requests to the server, making client-side rendering better for performance as well.
