@@ -1,45 +1,49 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 
 const FetchDataComponent = () => {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [fetchId, setFetchId] = useState(0);
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [fetchId, setFetchId] = useState(0)
 
   // Component mount/unmount effect
   useEffect(() => {
-    console.log('Component mounted');
-    return () => console.log('Component unmounted');
-  }, []);
+    console.log('Component mounted')
+    return () => console.log('Component unmounted')
+  }, [])
 
   // Effect for handling the data fetching
   useEffect(() => {
-    if (fetchId === 0) return; // Don't fetch data on initial render
+    if (fetchId === 0) return // Don't fetch data on initial render
 
-    const controller = new AbortController();
+    const controller = new AbortController()
     const fetchData = async () => {
-      setLoading(true);
+      setLoading(true)
       try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts/1', {
-          signal: controller.signal,
-        });
-        const result = await response.json();
-        setData(result);
+        const response = await fetch(
+          'https://jsonplaceholder.typicode.com/posts/1',
+          {
+            signal: controller.signal,
+          },
+        )
+        const result = await response.json()
+        setData(result)
       } catch (error) {
-        if (error.name !== 'AbortError') console.error('Error fetching data:', error);
+        if (error.name !== 'AbortError')
+          console.error('Error fetching data:', error)
       } finally {
-        setLoading(false);
+        setLoading(false)
       }
-    };
+    }
 
-    fetchData();
+    fetchData()
     return () => {
-      console.log('Cleanup: Abort fetch');
-      controller.abort();
-    };
-  }, [fetchId]); // Runs only when fetchId changes so that unnecessary fetches are avoided
+      console.log('Cleanup: Abort fetch')
+      controller.abort()
+    }
+  }, [fetchId]) // Runs only when fetchId changes so that unnecessary fetches are avoided
 
   return (
-    <div className="flex flex-col items-center">      
+    <div className="flex flex-col items-center">
       <button
         onClick={() => setFetchId((prev) => prev + 1)} // Increment fetchId to trigger fetch
         disabled={loading}
@@ -57,7 +61,7 @@ const FetchDataComponent = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default FetchDataComponent;
+export default FetchDataComponent

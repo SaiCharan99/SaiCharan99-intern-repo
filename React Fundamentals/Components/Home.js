@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Home() {
   return (
@@ -6,7 +6,7 @@ function Home() {
       <h1 className="text-2xl font-bold">Home Page</h1>
       <p>Welcome to Focus Bear Home page!</p>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

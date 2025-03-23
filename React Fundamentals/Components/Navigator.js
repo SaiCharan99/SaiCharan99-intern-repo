@@ -1,7 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./Home";
-import Profile from "./Profile";
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Home from './Home'
+import Profile from './Profile'
 
 function Navigator() {
   return (
@@ -28,7 +28,7 @@ function Navigator() {
         </Routes>
       </div>
     </Router>
-  );
+  )
 }
 
-export default Navigator;
+export default Navigator
