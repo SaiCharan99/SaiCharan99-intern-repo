@@ -3,16 +3,22 @@ import {
   View,
   Text,
   TextInput,
-  TouchableOpacity,
   FlatList,
   StyleSheet,
+  Dimensions,
 } from 'react-native'
+import { Button } from 'react-native-paper'
+
+const { width, height } = Dimensions.get('window')
 
 function ListCreator() {
   const [task, setTask] = useState('')
   const [tasks, setTasks] = useState([])
 
   const addTask = () => {
+    console.log('Width of device is: ', width)
+    console.log('Height of device is: ', height)
+
     if (task.trim() !== '') {
       setTasks([...tasks, task])
       setTask('')
@@ -30,15 +36,26 @@ function ListCreator() {
           placeholder="Enter a task"
           onSubmitEditing={addTask}
         />
-        <TouchableOpacity onPress={addTask} style={styles.button}>
-          <Text style={{ color: 'white', fontWeight: 'bold' }}>Add</Text>
-        </TouchableOpacity>
+        <Button mode="contained" onPress={addTask}>
+          Add
+        </Button>
       </View>
       <FlatList
         data={tasks}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => <Text style={styles.taskItem}>{item}</Text>}
       />
+      <View
+        style={{
+          width: width * 0.8,
+          height: height * 0.3,
+          backgroundColor: 'lightblue',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <Text>Responsive Layout</Text>
+      </View>
     </View>
   )
 }
