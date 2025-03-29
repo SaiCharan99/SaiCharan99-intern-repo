@@ -2,3 +2,5 @@
 .husky/
 node_modules/
 my-react-tailwind-app/
+react-native-app/
+FocusBearGestures/
