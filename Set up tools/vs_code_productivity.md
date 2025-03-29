@@ -12,7 +12,11 @@ Useful Commands:
 8. CMD + J: Toggle the terminal.
 9. CMD + Shift + P: Open the command palette.
 10. CMD + (+ / -): Zoom in or zoom out.
+11. CMD + SHIFT + V: For preview.
 
 Reflections:
 My most used commands would be numbers 1, 2, and 8 in daily work to improve my workflow.  
 Things that might take multiple button clicks can be achieved using shortcuts, and they help fast-track the process.
+
+ScreenCast Link:
+[ScreenCast Link](https://www.icloud.com/iclouddrive/019mOKa-0cDJ0-YOeZhdOUJow#Shortcuts)
