@@ -10,3 +10,4 @@ Adjusting the screen height and ensuring I sit upright regularly will improve my
 
 - Started using a laptop stand to ensure the screen is at eye level.
 - Adjusted chair height to match the screen level.
+![alt text](image-3.png)
