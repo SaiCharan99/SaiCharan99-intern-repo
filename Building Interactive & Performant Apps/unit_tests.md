@@ -24,3 +24,11 @@ React Native Testing Library encourages testing components the way users interac
 It is important to mock API calls in tests because it ensures network failures don't cause crashes and API downtimes are handled gracefully.
 
 Some common pitfalls when testing asynchronous code are ignoring error scenarios and not using waitFor, which is crucial to ensure the test waits for state updates.
+
+## Redux Reflections
+
+Added test cases to previously written redux components
+![alt text](image-18.png)
+
+The most challenging part of testing Redux is mocking the entire Redux store and reducer, and setting everything up before actually testing the components. Manually writing to fire events and expecting the outcome, though tedious, was fun to implement and learn.
+Redux tests examine state management logic - verifying reducers transform state correctly and actions work properly. They're typically pure JavaScript without DOM requirements. React component tests focus on UI and interactions - checking rendering, event handling, and updates based on props. These require DOM simulation and more complex setup with extensive mocking of dependencies.
