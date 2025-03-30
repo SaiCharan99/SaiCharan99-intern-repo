@@ -7,7 +7,7 @@ import {
   StyleSheet,
 } from 'react-native'
 import { fetchData } from '../api/apiClient'
-import ErrorHandler from './ErrorHandler'
+import ErrorHandler from '../components/ErrorHandler'
 
 const HomeScreen = () => {
   const [postId, setPostId] = useState(1)
@@ -37,7 +37,12 @@ const HomeScreen = () => {
 
   if (loading) {
     return (
-      <ActivityIndicator size="large" color="#6200ea" style={styles.loader} />
+      <ActivityIndicator
+        testID="loading-indicator"
+        size="large"
+        color="#6200ea"
+        style={styles.loader}
+      />
     )
   }
 
@@ -50,7 +55,11 @@ const HomeScreen = () => {
           <Text style={styles.title}>📌 {data?.title}</Text>
           <Text style={styles.body}>{data?.body}</Text>
 
-          <TouchableOpacity style={styles.button} onPress={handleNext}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={handleNext}
+            accessibilityRole="button"
+          >
             <Text style={styles.buttonText}>Next</Text>
           </TouchableOpacity>
         </>
