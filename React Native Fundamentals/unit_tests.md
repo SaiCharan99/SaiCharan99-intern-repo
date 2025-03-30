@@ -20,3 +20,7 @@ Jest & React Native Testing Library:-
 Pushed files Message.test.js
 ![alt text](image-16.png)
 React Native Testing Library encourages testing components the way users interact with them rather than relying on internal implementation details.
+
+It is important to mock API calls in tests because it ensures network failures don't cause crashes and API downtimes are handled gracefully.
+
+Some common pitfalls when testing asynchronous code are ignoring error scenarios and not using waitFor, which is crucial to ensure the test waits for state updates.
