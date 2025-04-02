@@ -9,4 +9,4 @@ I also used Oh My Zsh to further customize the shell.
 I refreshed some basic terminal commands like ls to show a list of files and cd to change directories to navigate around the terminal.
 
 Screencast Link:-
-https://www.icloud.com/iclouddrive/04fU7XEhS-2Ixy6cDg5emkoww#Screen_Recording_2025-03-30_at_11.47
+[ScreenCast Link](https://www.icloud.com/iclouddrive/04fU7XEhS-2Ixy6cDg5emkoww#Screen_Recording_2025-03-30_at_11.47)
